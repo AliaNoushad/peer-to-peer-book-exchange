@@ -1,0 +1,52 @@
+{{> header}}
+<div class="container mt-4">
+    <h2 class="mb-4">📚 Book Exchange Dashboard</h2>
+    
+    <h3 class="text-primary">Your Books</h3>
+    <div class="row">
+        {{#each books}}
+        <div class="col-md-4">
+            <div class="card shadow-sm" style="height: 100%; min-height: 350px;">
+                <img src="{{this.image}}" class="card-img-top" alt="{{this.title}}" style="height: 200px; object-fit: cover;">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">{{this.title}}</h5>
+                    <p class="text-muted">{{this.author}}</p>
+                    <a href="/book/{{this.id}}" class="btn btn-info mt-auto">📖 View</a>
+                    
+                    {{#if this.available}}
+                    <form action="/borrow" method="POST" class="mt-2">
+                        <input type="hidden" name="bookId" value="{{this.id}}">
+                        <button type="submit" class="btn btn-primary w-100">📚 Borrow</button>
+                    </form>
+                    {{else}}
+                    <button class="btn btn-secondary w-100 mt-2" disabled>❌ Not Available</button>
+                    {{/if}}
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+    <a href="/add-book" class="btn btn-primary mb-4">➕ Add New Book</a>
+
+    <h3 class="text-danger mt-5">📌 Pending Requests</h3>
+    <div class="row">
+        {{#each requests}}
+        <div class="col-md-4">
+            <div class="card shadow">
+                <div class="card-body">
+                    <h5 class="card-title">📖 {{this.book.title}}</h5>
+                    <p class="text-muted">Requested by: {{this.requester.name}}</p>
+                    
+                    <form action="/borrow/{{this.id}}/approve" method="POST">
+                        <button type="submit" class="btn btn-success">✔ Approve</button>
+                    </form>
+                    <form action="/borrow/{{this.id}}/decline" method="POST" class="mt-2">
+                        <button type="submit" class="btn btn-danger">✖ Decline</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>
+{{> footer}}

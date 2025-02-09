@@ -1,0 +1,15 @@
+{{> header}}
+<div class="container mt-4">
+    <div class="card mx-auto" style="max-width: 600px;">
+        <img src="{{book.image}}" class="card-img-top" alt="{{book.title}}" style="height: 300px; object-fit: cover;">
+        <div class="card-body">
+            <h3 class="card-title">{{book.title}}</h3>
+            <p class="card-text"><strong>Author:</strong> {{book.author}}</p>
+            <p class="card-text"><strong>Description:</strong> {{book.description}}</p>
+            <p class="card-text"><strong>Available:</strong> {{#if book.available}}✅ Yes{{else}}❌ No{{/if}}</p>
+            
+            <a href="/" class="btn btn-secondary">Back to Dashboard</a>
+        </div>
+    </div>
+</div>
+{{> footer}}
