@@ -10,7 +10,7 @@
 - Member 2: Aswathy
 
 ### Hosted Project Link
-https://bookhub-8rxm.onrender.com/
+https://p2p-bookexchange.onrender.com
 
 ### Project Description
 [2-3 lines about what your project does]
