@@ -44,14 +44,15 @@ backend:express.js]
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![signup](https://github.com/user-attachments/assets/3822ac8a-0ef1-4346-9bac-979c2521342d)
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![login](https://github.com/user-attachments/assets/98f38e08-2784-4b1b-a0b1-844f733fc662)
+![home](https://github.com/user-attachments/assets/f7fa70c3-7e81-4a39-863e-f981cabdff49)
+![book](https://github.com/user-attachments/assets/c9c31b82-f74d-4f9a-a4f4-09bf4d0aa07d)
+
+![dashboard](https://github.com/user-attachments/assets/a7b1dd82-6aed-4e9f-ad25-e1fe37cb26d3)
+
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
