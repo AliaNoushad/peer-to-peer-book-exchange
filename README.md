@@ -6,20 +6,20 @@
 
 
 ### Team Members
-- Member 1: Aliya Noushad
-- Member 2: Aswathy
+- Member 1: Aliya Noushad - College of engineering Perumon
+- Member 2: Aswathy viswam - College of engineering Perumon
 
 ### Hosted Project Link
 https://p2p-bookexchange.onrender.com
 
 ### Project Description
-[2-3 lines about what your project does]
+[A Peer-to-Peer (P2P) Book Exchange allows users to share, lend, or exchange books directly with others instead of buying new ones. This system promotes affordability, sustainability, and community engagement]
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+In today's world, many people own books that they no longer need but could be useful to others. At the same time, people often seek books they don't want to buy at full price. A Peer-to-Peer (P2P) Book Exchange platform can solve this problem by enabling users to list books they want to exchange and find books they are looking for]
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+[1. Matching users effectively – An algorithm to suggest the best book matches. 2. Real-time updates – Ensuring smooth chat and notifications. 3. Scalability – Handling a growing number of books and users]
 
 ## Technical Details
 ### Technologies/Components Used
