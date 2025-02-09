@@ -1,0 +1,30 @@
+{
+  "name": "peer-to-peer-book-exchange",
+  "version": "1.0.0",
+  "description": "A platform for students to exchange books with each other.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^6.3.4",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "nodemon": "^3.1.9",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^4.0.5"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
