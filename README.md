@@ -44,14 +44,22 @@ backend:express.js]
 For Software:
 
 # Screenshots (Add at least 3)
+# LOGIN PAGE
+![image](https://github.com/user-attachments/assets/73154a98-7a5a-4439-8d18-99c549457348)
+# SIGNUP PAGE
+![image](https://github.com/user-attachments/assets/3a14698d-4ac8-48d0-89ea-7f783b5d79c6)
+# HOME PAGE
+![image](https://github.com/user-attachments/assets/4cb734c4-4a5d-4c10-8806-5bdfa493242e)
+# DASHBOARD
+![image](https://github.com/user-attachments/assets/d13dba5e-927c-4b21-9de7-c4fdfc3f6a3a)
+# FORM FOR ADDING BOOKS
+![image](https://github.com/user-attachments/assets/662dac57-8880-4236-b052-48599f2d60d1)
+# OPTIONS FOR APPROVING AND REJECTING BOOK BORROWING REQUESTS
+![image](https://github.com/user-attachments/assets/46cc18ef-cdd9-408b-8665-fb61380b7070)
+# ABOUT BOOK
+![image](https://github.com/user-attachments/assets/1683cd2b-7e90-4df2-aa8f-78542f9c0031)
 
-![signup](https://github.com/user-attachments/assets/3822ac8a-0ef1-4346-9bac-979c2521342d)
 
-![login](https://github.com/user-attachments/assets/98f38e08-2784-4b1b-a0b1-844f733fc662)
-![home](https://github.com/user-attachments/assets/f7fa70c3-7e81-4a39-863e-f981cabdff49)
-![book](https://github.com/user-attachments/assets/c9c31b82-f74d-4f9a-a4f4-09bf4d0aa07d)
-
-![dashboard](https://github.com/user-attachments/assets/a7b1dd82-6aed-4e9f-ad25-e1fe37cb26d3)
 
 
 # Diagrams
